@@ -1,0 +1,12 @@
+Source: ros-hydro-uol-turtlebot-common
+Section: misc
+Priority: extra
+Maintainer: marc <marc@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-turtlebot-actions, ros-hydro-turtlebot-bringup, ros-hydro-turtlebot-core-apps, ros-hydro-turtlebot-dashboard, ros-hydro-turtlebot-msgs, ros-hydro-turtlebot-navigation, ros-hydro-turtlebot-rviz-launchers, ros-hydro-uol-morse-simulator
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-uol-turtlebot-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-turtlebot-actions, ros-hydro-turtlebot-bringup, ros-hydro-turtlebot-core-apps, ros-hydro-turtlebot-dashboard, ros-hydro-turtlebot-msgs, ros-hydro-turtlebot-navigation, ros-hydro-turtlebot-rviz-launchers, ros-hydro-uol-morse-simulator
+Description: The uol_turtlebot_common package
