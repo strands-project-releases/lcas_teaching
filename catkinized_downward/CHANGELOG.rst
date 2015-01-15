@@ -2,6 +2,12 @@
 Changelog for package catkinized_downward
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.4 (2015-01-15)
+------------------
+
+0.1.3 (2015-01-14)
+------------------
+
 0.1.2 (2015-01-09)
 ------------------
 * use tarball instead of fast-downward.org to download
