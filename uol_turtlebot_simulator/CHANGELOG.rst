@@ -2,6 +2,11 @@
 Changelog for package uol_turtlebot_simulator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.9 (2015-02-03)
+------------------
+* Adding a green box on top of each robot.
+* Contributors: Christian Dondrup
+
 0.1.8 (2015-02-02)
 ------------------
 
