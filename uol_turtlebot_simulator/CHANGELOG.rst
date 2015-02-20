@@ -2,6 +2,11 @@
 Changelog for package uol_turtlebot_simulator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.10 (2015-02-20)
+-------------------
+* change box size to the real one
+* Contributors: Marc Hanheide
+
 0.1.9 (2015-02-03)
 ------------------
 * Adding a green box on top of each robot.
