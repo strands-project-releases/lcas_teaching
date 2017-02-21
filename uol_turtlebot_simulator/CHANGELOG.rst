@@ -2,6 +2,17 @@
 Changelog for package uol_turtlebot_simulator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.14 (2017-02-21)
+-------------------
+* Update tutorial.md
+* Update tutorial.md
+* Update tutorial.md
+* Update tutorial.md
+* Update tutorial.md
+* Update tutorial.md
+* Update tutorial.md
+* Contributors: Christian Dondrup
+
 0.1.13 (2015-11-19)
 -------------------
 * Splitting labc.launch into two launch files and have lbac.launch as the meta launch file. This way it is easier to avoid the race condition on the lab machines.
