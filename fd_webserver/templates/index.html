@@ -35,6 +35,7 @@
 	<script src="static/codemirror/mode/commonlisp/commonlisp.js"></script>
 	<script src="static/codemirror/addon/selection/active-line.js"></script>
 	<script src="static/codemirror/addon/edit/matchbrackets.js"></script>
+	<script src="static/js/FileSaver.min.js"></script>
 	<link rel="stylesheet" href="static/codemirror/theme/eclipse.css">
 
 	<link href="static/css/style.css" rel="stylesheet">
@@ -71,10 +72,12 @@
 						    <span class="caret"></span>
 						  </button>
 						  <ul id="ddm-domain" class="dropdown-menu" role="menu" aria-labelledby="dropDownDomain">
+                                                    <li role="presentation"><a role="menuitem" tabindex="-1">wolf-goat-cabbage-domain-template</a></li>
 						    <li role="presentation"><a role="menuitem" tabindex="-1">template</a></li>
 						    <li role="presentation"><a role="menuitem" tabindex="-1">blocks</a></li>
                                                     <li role="presentation"><a role="menuitem" tabindex="-1">slidetile</a></li>
 						    <li role="presentation"><a role="menuitem" tabindex="-1">robot</a></li>
+                                                    <li role="presentation"><a role="menuitem" tabindex="-1">depot</a></li>
                                                     <li role="presentation"><a role="menuitem" tabindex="-1">robot_typed</a></li>
 						  </ul>
 						</div>					
@@ -99,6 +102,20 @@
 	    					mode: "commonlisp"//"text/x-common-lisp"
 	  					});
 					</script>
+					<div class="form-group">
+						<div class="col-sm-offset-5 col-sm-10">
+							 <button id="download_domain" 
+							 	type="button" 
+							 	class="btn btn-primary btn-lg">Download</button>
+						</div>
+						<script type="text/javascript" async defer>
+							$('#download_domain').on('click', function () {
+								var blob = new Blob([domain_editor.getValue()], {type: "text/plain;charset=ascii"});
+								saveAs(blob, "domain.pddl");
+							});
+						</script>
+					</div>
+
 				</form>
 
 			  </div>
@@ -119,7 +136,14 @@
 						    <span class="caret"></span>
 						  </button>
 						  <ul id="ddm-problem" class="dropdown-menu" role="menu" aria-labelledby="dropDownProblem">
+                                                    <li role="presentation"><a role="menuitem" tabindex="-1">wolf-goat-cabbage-problem-01</a></li>
+                                                    <li role="presentation"><a role="menuitem" tabindex="-1">wolf-goat-cabbage-problem-02</a></li>
 						    <li role="presentation"><a role="menuitem" tabindex="-1">template</a></li>
+                                                    <li role="presentation"><a role="menuitem" tabindex="-1">travel-1</a></li>
+                                                    <li role="presentation"><a role="menuitem" tabindex="-1">travel-2</a></li>
+
+
+
                             <li role="presentation"><a role="menuitem" tabindex="-1">move</a></li>
 						    <li role="presentation"><a role="menuitem" tabindex="-1">depot-01</a></li>
 						    <li role="presentation"><a role="menuitem" tabindex="-1">depot-02</a></li>
@@ -137,6 +161,9 @@
 						        console.log("Selected Option:"+$(this).text());
 							});
 						</script>
+
+
+
 					</div>
 					<div class="form-group">
 						<textarea class="form-control" id="problem"></textarea>
