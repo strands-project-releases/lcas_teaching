@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>uol_turtlebot_common</name>
-  <version>0.1.16</version>
+  <version>0.1.17</version>
   <description>The uol_turtlebot_common package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
@@ -45,7 +45,7 @@
   <build_depend>rospy</build_depend>
   <build_depend>std_srvs</build_depend>
   <run_depend>geometry_msgs</run_depend>
-  <run_depend>map_store</run_depend>
+  <!--run_depend>map_store</run_depend>-->
   <run_depend>turtlebot</run_depend>
   <run_depend>turtlebot_apps</run_depend>
   <run_depend>turtlebot_create</run_depend>
