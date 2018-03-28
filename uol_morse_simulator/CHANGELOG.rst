@@ -1,29 +1,12 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package uol_cmp3641m
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-0.1.18 (2017-06-26)
--------------------
-
-0.1.17 (2017-06-26)
--------------------
-* removed packages that where invalid for kinetic
-* Contributors: Marc Hanheide
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package uol_morse_simulator
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.1.19 (2018-03-28)
 -------------------
+* ready for updates on indigo
 * prepare indigo release
-* 0.1.18
-* updated changelogs
-* 0.1.17
-* changelogs
-* Contributors: LCAS build farm, Marc Hanheide
-
-* 0.1.18
-* updated changelogs
-* 0.1.17
-* changelogs
-* Contributors: LCAS build farm, Marc Hanheide
+* Contributors: Marc Hanheide
 
 0.1.16 (2017-03-29)
 -------------------
@@ -33,8 +16,6 @@ Changelog for package uol_cmp3641m
 
 0.1.14 (2017-02-21)
 -------------------
-* working
-* Contributors: Marc Hanheide
 
 0.1.13 (2015-11-19)
 -------------------
@@ -67,5 +48,12 @@ Changelog for package uol_cmp3641m
 
 0.1.3 (2015-01-14)
 ------------------
-* added uol_cmp3641m package
+
+0.1.2 (2015-01-09)
+------------------
+
+0.1.1 (2015-01-09)
+------------------
+* bumped version after moving packages
+* initialised with basic packages
 * Contributors: Marc Hanheide
