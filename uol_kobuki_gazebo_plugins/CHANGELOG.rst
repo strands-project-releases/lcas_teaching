@@ -2,6 +2,12 @@
 Changelog for package uol_kobuki_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.19 (2018-03-28)
+-------------------
+* ready for updates on indigo
+* prepare indigo release
+* Contributors: Marc Hanheide
+
 0.1.16 (2017-03-29)
 -------------------
 
