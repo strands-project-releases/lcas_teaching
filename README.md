@@ -1,3 +1,30 @@
+## lcas_teaching (kinetic) - 0.1.18-1
+
+The packages in the `lcas_teaching` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -y --no-web -t kinetic -r kinetic lcas_teaching` on `Thu, 23 Aug 2018 08:56:41 -0000`
+
+These packages were released:
+- `catkinized_downward`
+- `uol_cmp3641m`
+- `uol_turtlebot_common`
+- `uol_turtlebot_simulator`
+
+Version of package(s) in repository `lcas_teaching`:
+
+- upstream repository: https://github.com/LCAS/teaching.git
+- release repository: https://github.com/strands-project-releases/lcas_teaching.git
+- rosdistro version: `0.1.18-0`
+- old version: `0.1.18-0`
+- new version: `0.1.18-1`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## lcas_teaching (indigo) - 0.1.19-0
 
 The packages in the `lcas_teaching` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -t indigo -r indigo lcas_teaching` on `Wed, 28 Mar 2018 18:21:23 -0000`
