@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>uol_turtlebot_common</name>
-  <version>0.1.18</version>
+  <version>0.2.0</version>
   <description>The uol_turtlebot_common package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
@@ -53,7 +53,7 @@
   <run_depend>turtlebot_interactive_markers</run_depend>
   <run_depend>turtlebot_msgs</run_depend>
   <run_depend>turtlebot_rviz_launchers</run_depend>
-  <run_depend>turtlebot_simulator</run_depend>
+  <run_depend>turtlebot_gazebo</run_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
