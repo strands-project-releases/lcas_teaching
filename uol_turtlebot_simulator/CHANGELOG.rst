@@ -2,6 +2,11 @@
 Changelog for package uol_turtlebot_simulator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.3 (2020-01-29)
+------------------
+* updated gzmaze
+* Contributors: Marc Hanheide
+
 1.0.2 (2020-01-29)
 ------------------
 * gzmaze fixes and better default camera and light
