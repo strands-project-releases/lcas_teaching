@@ -1,0 +1,12 @@
+Source: ros-kinetic-uol-turtlebot-simulator
+Section: misc
+Priority: optional
+Maintainer: Christian Dondrup <cdondrup@lincoln.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-kobuki-gazebo-plugins, ros-kinetic-turtlebot-apps, ros-kinetic-turtlebot-gazebo, ros-kinetic-turtlebot-rviz-launchers, ros-kinetic-turtlebot-stdr
+Homepage: https://github.com/LCAS/teaching
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-uol-turtlebot-simulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-amcl, ros-kinetic-gazebo-ros, ros-kinetic-kobuki-gazebo-plugins, ros-kinetic-map-server, ros-kinetic-move-base, ros-kinetic-nodelet, ros-kinetic-robot-pose-ekf, ros-kinetic-robot-state-publisher, ros-kinetic-rviz, ros-kinetic-turtlebot-apps, ros-kinetic-turtlebot-gazebo, ros-kinetic-turtlebot-rviz-launchers, ros-kinetic-turtlebot-stdr, ros-kinetic-turtlebot-teleop
+Description: The uol_turtlebot_simulator package
