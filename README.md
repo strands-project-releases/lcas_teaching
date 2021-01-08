@@ -1,3 +1,54 @@
+## lcas_teaching (melodic) - 3.0.1-1
+
+The packages in the `lcas_teaching` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic -n lcas_teaching` on `Fri, 08 Jan 2021 17:41:34 -0000`
+
+These packages were released:
+- `kobuki_bumper2pc`
+- `kobuki_description`
+- `kobuki_gazebo_plugins`
+- `kobuki_keyop`
+- `kobuki_msgs`
+- `kobuki_node`
+- `kobuki_safety_controller`
+- `turtlebot_actions`
+- `turtlebot_apps`
+- `turtlebot_bringup`
+- `turtlebot_calibration`
+- `turtlebot_capabilities`
+- `turtlebot_description`
+- `turtlebot_follower`
+- `turtlebot_gazebo`
+- `turtlebot_msgs`
+- `turtlebot_navigation`
+- `turtlebot_rapps`
+- `turtlebot_simulator`
+- `turtlebot_stage`
+- `turtlebot_stdr`
+- `turtlebot_teleop`
+- `uol_cmp3103m`
+- `uol_rpi_tbot`
+- `uol_turtlebot_common`
+- `uol_turtlebot_simulator`
+- `yocs_cmd_vel_mux`
+- `yocs_controllers`
+
+Version of package(s) in repository `lcas_teaching`:
+
+- upstream repository: https://github.com/LCAS/teaching.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `3.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## lcas_teaching (kinetic) - 1.0.5-1
 
 The packages in the `lcas_teaching` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -y --no-web -t kinetic -r kinetic lcas_teaching` on `Sun, 15 Mar 2020 14:15:11 -0000`
