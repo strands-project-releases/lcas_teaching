@@ -1,0 +1,12 @@
+Source: ros-melodic-uol-cmp3103m
+Section: misc
+Priority: optional
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-uol-cmp3103m
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-kobuki-gazebo-plugins, ros-melodic-uol-turtlebot-simulator
+Description: The uol_cmp3103m package
