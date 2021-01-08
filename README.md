@@ -1,6 +1,10 @@
-LCAS Teaching Repo
-========
+# Testing Model Views
 
-[![Join the chat at https://gitter.im/lcas-teaching/Lobby](https://badges.gitter.im/lcas-teaching/Lobby.svg)](https://gitter.im/lcas-teaching/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Test the robot descriptions via the launcher in 
+turtlebot_viz/turtlebot_rviz_launchers.
 
-A repository for all the teaching stuff
+    roslaunch turtlebot_rviz_launchers view_model.launch
+
+It is a standalone launcher with minimal dependencies. Comments
+on how to reconfigure your environment to view the different
+robot models are in the launcher.
