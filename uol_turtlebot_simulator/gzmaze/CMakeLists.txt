@@ -1,40 +1,29 @@
-cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.10)
 project(gzmaze)
 
-add_compile_options(${GAZEBO_CXX_FLAGS})
-add_compile_options(-std=c++11)
+set(CMAKE_CXX_STANDARD 11)
 
+find_package(Qt5 COMPONENTS Widgets Test REQUIRED)
 find_package(gazebo REQUIRED)
-include_directories(${GAZEBO_INCLUDE_DIRS})
-link_directories(${GAZEBO_LIBRARY_DIRS})
 
-add_library(maze_plugin SHARED maze_plugin/MazePlugin.cc)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+
+add_library(regenerate_widget SHARED gui_plugin/regenerate_widget.h gui_plugin/regenerate_widget.cc)
+target_include_directories(regenerate_widget PUBLIC ${GAZEBO_INCLUDE_DIRS})
+target_link_libraries(regenerate_widget Qt5::Widgets Qt5::Core Qt5::Test ${GAZEBO_LIBRARIES})
+
+add_library(maze_plugin SHARED maze_plugin/maze_plugin.cc)
+target_include_directories(maze_plugin PUBLIC ${GAZEBO_INCLUDE_DIRS})
 target_link_libraries(maze_plugin ${GAZEBO_LIBRARIES})
+#target_link_directories(maze_plugin PUBLIC ${GAZEBO_LIBRARY_DIRS})
 
-find_package (Qt4)
-find_package(Protobuf REQUIRED)
-find_package(gazebo REQUIRED)
+add_library(MousePlugin SHARED mouse_plugin/mouse_plugin.cc)
+target_include_directories(MousePlugin PUBLIC ${GAZEBO_INCLUDE_DIRS})
+target_link_libraries(MousePlugin ${GAZEBO_LIBRARIES})
 
-include (${QT_USE_FILE})
-add_definitions(${QT_DEFINITIONS})
+install(TARGETS regenerate_widget MousePlugin maze_plugin
+    DESTINATION lib
+)
 
-include_directories(SYSTEM ${GAZEBO_INCLUDE_DIRS})
-link_directories(${GAZEBO_LIBRARY_DIRS})
-
-QT4_WRAP_CPP(headers_MOC gui_plugin/RegenerateWidget.hh)
-
-add_library(regenerate_widget SHARED ${headers_MOC}
-  gui_plugin/RegenerateWidget.cc)
-target_link_libraries(regenerate_widget
-    ${GAZEBO_LIBRARIES}
-    ${QT_LIBRARIES}
-    ${PROTOBUF_LIBRARIES})
-
-find_package(gazebo REQUIRED)
-include_directories(${GAZEBO_INCLUDE_DIRS})
-link_directories(${GAZEBO_LIBRARY_DIRS})
-
-add_library(MousePlugin SHARED mouse_plugin/MousePlugin.cc)
-target_link_libraries(MousePlugin	 ${GAZEBO_LIBRARIES} ${Boost_LIBRARIES})
-
-install(TARGETS maze_plugin regenerate_widget MousePlugin DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/gazebo_plugins)
