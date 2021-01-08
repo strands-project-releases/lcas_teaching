@@ -1,6 +1,6 @@
-LCAS Teaching Repo
-========
+kobuki_msgs
+===========
 
-[![Join the chat at https://gitter.im/lcas-teaching/Lobby](https://badges.gitter.im/lcas-teaching/Lobby.svg)](https://gitter.im/lcas-teaching/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+**This repository is now legacy and in maintenance mode for ROS1 support. For the latest development (ROS2) releases, shift your xeyes to https://github.com/kobuki-base/kobuki_ros_interfaces.git.**
 
-A repository for all the teaching stuff
+----
