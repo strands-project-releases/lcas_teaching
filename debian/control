@@ -1,0 +1,12 @@
+Source: ros-melodic-turtlebot-gazebo
+Section: misc
+Priority: optional
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/turtlebot_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-melodic-turtlebot-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-depthimage-to-laserscan, ros-melodic-diagnostic-aggregator, ros-melodic-gazebo-ros, ros-melodic-kobuki-gazebo-plugins, ros-melodic-robot-pose-ekf, ros-melodic-robot-state-publisher, ros-melodic-turtlebot-bringup, ros-melodic-turtlebot-description, ros-melodic-turtlebot-navigation, ros-melodic-xacro, ros-melodic-yocs-cmd-vel-mux
+Description: Gazebo launchers and worlds for TurtleBot simulation
