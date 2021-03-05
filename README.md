@@ -1,4 +1,6 @@
-LCAS Teaching Repo
-========
+kobuki_msgs
+===========
 
-A repository for all the teaching stuff (mainly CMP3103M)
+**This repository is now legacy and in maintenance mode for ROS1 support. For the latest development (ROS2) releases, shift your xeyes to https://github.com/kobuki-base/kobuki_ros_interfaces.git.**
+
+----
