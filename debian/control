@@ -1,0 +1,12 @@
+Source: ros-melodic-turtlebot-navigation
+Section: misc
+Priority: optional
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf
+Homepage: http://ros.org/wiki/turtlebot_navigation
+Standards-Version: 3.9.2
+
+Package: ros-melodic-turtlebot-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-amcl, ros-melodic-dwa-local-planner, ros-melodic-gmapping, ros-melodic-map-server, ros-melodic-move-base, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf, ros-melodic-turtlebot-bringup
+Description: turtlebot_navigation
