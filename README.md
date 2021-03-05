@@ -1,4 +1,4 @@
-LCAS Teaching Repo
-========
+turtlebot_msgs
+==============
 
-A repository for all the teaching stuff (mainly CMP3103M)
+Turtlebot messages, services and actions
