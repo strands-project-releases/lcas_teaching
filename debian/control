@@ -1,0 +1,12 @@
+Source: ros-melodic-kobuki-node
+Section: misc
+Priority: optional
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-angles, ros-melodic-catkin, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-ecl-exceptions, ros-melodic-ecl-sigslots, ros-melodic-ecl-streams, ros-melodic-ecl-threads, ros-melodic-geometry-msgs, ros-melodic-kobuki-driver, ros-melodic-kobuki-ftdi, ros-melodic-kobuki-keyop, ros-melodic-kobuki-msgs, ros-melodic-kobuki-safety-controller, ros-melodic-nav-msgs, ros-melodic-nodelet, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Homepage: http://ros.org/wiki/kobuki_node
+Standards-Version: 3.9.2
+
+Package: ros-melodic-kobuki-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-angles, ros-melodic-capabilities, ros-melodic-diagnostic-aggregator, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-ecl-exceptions, ros-melodic-ecl-sigslots, ros-melodic-ecl-streams, ros-melodic-ecl-threads, ros-melodic-geometry-msgs, ros-melodic-kobuki-driver, ros-melodic-kobuki-ftdi, ros-melodic-kobuki-keyop, ros-melodic-kobuki-msgs, ros-melodic-kobuki-safety-controller, ros-melodic-nav-msgs, ros-melodic-nodelet, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Description: ROS nodelet for Kobuki: ROS wrapper for the Kobuki driver.
