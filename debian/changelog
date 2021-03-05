@@ -1,0 +1,8 @@
+ros-melodic-ros-book-line-follower (3.0.2-1bionic) bionic; urgency=high
+
+  * added line_follower and fixed windowthread
+  * Contributors: Marc Hanheide
+
+ -- Marc Hanheide <marc@hanheide.net>  Fri, 05 Mar 2021 00:00:00 -0000
+
+

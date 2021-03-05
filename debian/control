@@ -1,0 +1,12 @@
+Source: ros-melodic-ros-book-line-follower
+Section: misc
+Priority: optional
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-rospy
+Homepage: http://shop.oreilly.com/product/0636920024736.do
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ros-book-line-follower
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-gazebo-ros, ros-melodic-rospy
+Description: Sample code from chapter 12 of &quot;Programming Robots with ROS&quot;, by Quigley, Gerkey and Smart (O'Reilly Media, Inc.)
