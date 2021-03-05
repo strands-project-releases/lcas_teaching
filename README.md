@@ -1,6 +1,6 @@
-turtlebot_teleop
-================
+LCAS Teaching Repo
+========
 
-Turtlebot Teleoperation implementation. 
-This package used to be in turtlebot_apps repository. It has been temporarily migrated into turtlebot 
-because it is useful for both robot(turtlebot_apps) side and user side pc(turtlebot_interactions). 
+[![Join the chat at https://gitter.im/lcas-teaching/Lobby](https://badges.gitter.im/lcas-teaching/Lobby.svg)](https://gitter.im/lcas-teaching/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+A repository for all the teaching stuff
