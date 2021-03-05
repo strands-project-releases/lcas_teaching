@@ -1,0 +1,13 @@
+Source: ros-melodic-turtlebot-stage
+Section: misc
+Priority: optional
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/turtlebot_stage
+Standards-Version: 3.9.2
+
+Package: ros-melodic-turtlebot-stage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-navigation, ros-melodic-stage-ros, ros-melodic-turtlebot-bringup, ros-melodic-turtlebot-navigation, ros-melodic-yocs-velocity-smoother, ros-melodic-yocs-virtual-sensor
+Description: Stage version of turtlebot simulation.
+ Convenient to test 2D-navigation related stuffs
