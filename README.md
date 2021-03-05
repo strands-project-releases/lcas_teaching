@@ -1,4 +1,10 @@
-LCAS Teaching Repo
-========
+# Testing Model Views
 
-A repository for all the teaching stuff (mainly CMP3103M)
+Test the robot descriptions via the launcher in 
+turtlebot_viz/turtlebot_rviz_launchers.
+
+    roslaunch turtlebot_rviz_launchers view_model.launch
+
+It is a standalone launcher with minimal dependencies. Comments
+on how to reconfigure your environment to view the different
+robot models are in the launcher.
